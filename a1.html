@@ -1,0 +1,166 @@
+<DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8" />
+<title>asd 一</title>
+
+<style type="text/css">
+
+p{
+	color:green;
+	size:15;
+}
+
+
+div{
+width:400px;
+height:400px;
+background-color:#2DA995;
+}
+
+.t1{
+color:#FF9911
+}
+
+.k1,#cx{
+color:#22AADD;
+font-size:16px;
+background-color:#99CC33;
+
+}
+.k2
+{
+	color:#22AADD;
+font-size:23px;
+}
+#q1{ 
+  
+ 
+  width:50px; 
+  height:50px; 
+}
+
+
+</style>
+</head>
+
+
+
+<body>
+
+
+<h2>第1部分</h2>
+
+
+<h3  id='t1'  class='t1' onclick="j1()" > h3 使用t1(id)與onclick </h3>
+
+
+<hr/>
+<h2  id='w'>第2部分</h2>
+
+<form>
+<input id='o2' type="text" value="123"/>
+<button  onclick="j1()">確定</button>
+
+<!-- 
+
+<div> </div>
+  -->
+  
+  
+  <img  id='q1'  src='C:/Users/User/Desktop/h01/g0.png' style= " position:absolute;top:200px;left:200px" />
+
+   <img  id='q2'  src='C:/Users/User/Desktop/h01/g1.png' style= " position:absolute;top:450px;left:0px " width="1300px";  height="5px"; " />
+
+</form>
+
+
+
+<script type="text/javascript">
+
+var tt="新的頁面  ";
+
+document.write(123);
+
+var q=document.getElementById("w");
+document.write(q.innerHTML);
+
+q.innerHTML='123';
+
+
+
+
+//window.open();
+var kk=0;
+//run();
+//w();
+
+j1();
+var q2;
+
+function run() {
+
+}
+
+
+function w() {
+
+  // setTimeout('w()',100);
+  
+}
+
+
+function j1() {
+
+//window.open();
+
+	q1.style.left=parseInt(q1.style.left)+30+'px';
+//	
+
+}
+document.addEventListener("keydown",keydown);
+ function keydown(e){
+   var x = e.key;
+	if(x=="a")
+	{
+		q1.style.left=parseInt(q1.style.left)-30+'px';
+	}
+	else if(x=="d")
+	{
+		q1.style.left=parseInt(q1.style.left)+30+'px';
+	}
+	else if(x=="w")
+	{
+		q1.style.top=parseInt(q1.style.top)-30+'px';
+	}
+	else if(x=="s")
+	{
+		q1.style.top=parseInt(q1.style.top)+30+'px';
+	}
+	
+	
+
+    document.getElementById("demo").innerHTML = "按下的键是: " + x;
+ } 
+function p(event) {
+
+  
+
+}
+
+</script>
+
+
+
+<hr/>
+
+
+<button  onclick='j1()'>按鈕</button >
+<!--
+<p class='k1' >class==k1</p>
+-->
+
+</body>
+
+</html>
